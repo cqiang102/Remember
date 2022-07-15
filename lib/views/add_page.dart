@@ -13,7 +13,7 @@ class _AddPageState extends State<AddPage> {
     return Padding(
       padding: const EdgeInsets.all(15.0),
       child: ListView(
-        children: [
+        children: const [
           // Text('花了多少？'),
           TextField(
             keyboardType: TextInputType.number,
@@ -23,7 +23,7 @@ class _AddPageState extends State<AddPage> {
               labelStyle: TextStyle(fontSize: 18),
               hintStyle: TextStyle(fontSize: 18),
               suffixIcon: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: EdgeInsets.all(8.0),
                 child: Icon(Icons.currency_yuan,size: 60,),
               ),
                 labelText: '花了多少？',
